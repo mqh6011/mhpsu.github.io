@@ -1,0 +1,130 @@
+
+* {
+    background-color: #f1f1f18a;
+}
+
+h1 {
+    background-color: rgba(255, 0, 0, 0.0);
+    color: white;
+    font-family: "Martel", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+
+#block1 {
+    height: 400px;
+    width: 100%;
+    background-image: url("mainheader.png");
+    background-size: cover;
+    text-align: center;
+    
+}
+
+#centergroup {
+    height: auto;
+    width: auto;
+    background-color: white;
+    right: 50%;
+    left: 50%;
+    margin: 1em;
+}
+
+#mapContainer {
+  display: none;
+}
+
+
+#rightcgroup {
+    background-color: white;
+    height: 400px;
+    display: inline-block;
+    width: 32.9%;
+}
+
+#centercgroup {
+    background-color: white;
+    display: inline-block;
+    height: 400px;
+    width: 32.9%;
+}
+
+#leftcgroup {
+    background-color: white;
+    display: inline-block;
+    height: 400px;
+    width: 33.6%;
+}
+
+h2 { 
+    text-indent: 10px;
+    font-family: 'Roboto'; font-size: 24px;
+    background-color: #FFFFFF;
+}
+
+.centergroupclass {
+    text-indent: 10px;
+    font-family: 'Roboto'; 
+    font-size: 18px;
+    
+}
+
+a {
+    font-family: 'Roboto'; 
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: -10px;
+}
+
+
+a:hover {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto'; 
+    font-size: 18px;
+    
+  }
+
+  #floatgroup {
+    height: auto;
+    width: auto;
+    right: 50%;
+    left: 50%;
+    margin-right: 4em;
+    margin-left: 4em;
+    font-family: 'Roboto'; 
+    font-size: 20px;
+    background-color: #FFFFFF;
+  }
+
+  #spanstyle {
+    color: black;
+    
+  }
+
+  #spanheader{
+    height: auto;
+    width: 100%;
+    right: 50%;
+    left: 50%;
+    text-align: center;
+    
+  }
+
+  #floatleft {
+    float: left;
+    background-color: #FFFFFF;
+    
+  }
+
+  #imgleft {
+    float: left;
+    margin: .5em;
+  }
+
+  p {
+    background-color: #FFFFFF;
+  }

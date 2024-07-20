@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8"> 
+    <title>Tempo Watch Store</title>
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <!--Body / H2 font 6.5.2024.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--Logo Font 6.7.2024-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    
+</head>
+<!-- Sorry for whoever has to read my notes. Its mostly so I can remember when I come back to this what is what and where stuff is....so I dont break it...more. 
+And to make sure I have everything assigned that is required in the course. -->
+
+<!--
+Notes to self:
+- * to change everything on the page in the css page. It looks better in white but the course requires a background color. 
+- The text below the incline block works weird when the character limit exceeds a certain amount. Later I might make a different div and increase center group size. 
+- If for some reason this gets image heavy, note subimages are not exported for web size.
+- For the block1 header, background-color needs to be set to 0.0 or * will take over it. https://www.w3schools.com/css/css_image_transparency.asp
+-->
+
+<!--
+    Assignment Check: - 6.7.2024
+1. Create three HTML pages.  Each page should have a purpose within the context of your overall site. 
+    1. Checked - index.html, Page2.html, Page3.html (note that our history just loops back to the index page)
+2. Create at least one CSS file that provides styling for all three of your HTML pages.
+    2. Checked. Style.css
+3. One of your pages should have a floating element that includes both text and an image.  It should have proper margins.  Other text should wrap around that floating element.
+    3. Checked. Bottom of this page. CSS has margins and text wraps around the floated image. 
+4. Use Google Fonts.
+    4. Two google fonts. One in the header image and the body/h2. 
+5. Use span and div as shown in class.
+    5. Divs used and span is used in the bottom text.
+6. Modify background and foreground colors of at least one element using hexadecimal values from CSS.
+    6. * uses grey hex and most divs use white hex. 
+7. Apply a CSS style to an entire web page using a single CSS selector.
+    7. * is used for the background and is only overridden a handful of times. 
+8. Use a CSS class selector to apply a style to multiple page elements.
+    8. <p class ="centergroupclass"> is used for the block text. 
+9. Use a CSS hover selector to make something happen when the user places their mouse pointer over an element.
+    9. <a use hover so when you hover only the link it turns black/white. ß
+-->
+
+
+
+
+<body>
+    <!--Main Image Header block 6.5.2024-->
+    <div id="block1">
+        <br><br><br><br>
+        <!--Font: Martel. I would like to build this out into a full logo if this project has a second stage. I like Coral Lovers more and feel it 
+        would be a better brand logo. Tagline font needs reworking as well. -->
+        <h1>Tempo Watches. <br>
+            Make Time For What Matters</h1>
+    </div>
+    <br><br>
+    <!---Incline-Block System. https://www.w3schools.com/css/css_inline-block.asp 6.5.2024-->
+
+    <div id="centergroup">
+    
+        <div id="leftcgroup">
+            <img src="subimage1.png" height="65%" width="100%"> 
+            <h2>How To Care For Your Watch</h2>
+            
+            <p class ="centergroupclass">There are lots of ways to take care of your watch. </p>
+            <a href="Page2.html">Learn More</a>
+        </div>
+
+        <div id="centercgroup">
+            <img src="subimage2.png" height="65%" width="100%"> 
+            <h2>Shop Our Selection</h2>
+            
+            <p class ="centergroupclass">We have a wide variety of custom watches.</p>
+            <a href="Page3.html">Learn More</a>
+        </div>
+
+        <div id="rightcgroup">
+            <img src="subimage3.png" height="65%" width="100%"> 
+            <h2>Our History</h2>
+            <p class ="centergroupclass">Our History is only a week old.</p>
+            <a href="index.html">Learn More</a> 
+        </div>
+    </div>
+    <div id = "spanheader">
+        <h1> <span id="spanstyle">Make Time For What Matters</span></h1>
+    </div>
+    
+    <div id="floatgroup">
+        <div id ="floatleft">
+            <img id="imgleft" src="floatimage.png" height="125px" width="150px"> <p> Watch collecting is a fun hobby. Here at tempo watches we pride outside on making the best 
+                watches you can buy. Whether your a first time collector or a seasoned collector, im sure we could find something that peaks your interest. We have classic 
+                dials and modern ones. We have all different times of watch bands to perfectly make your personallity and express yourself in a fun and colorful ways. 
+             Our time tempo watches comes from the Itlian word for time. Time is the most imporant thing, and here at tempo watches we want to valve yours and help you 
+             select that amazing piece that seperates you from the crowd. We have 1 week of watch making (since our watch maker is a student at Penn State).  In terms of shipping, we ship very fast and can have a nice new watch to you very quickly. Shipping internationally will cost more money and take more time but 
+             domestically we can have your new watch to you in 1-2 days. Or visit us in State College to try on your new watch in person!  </p>
+            
+        
+        </div>
+
+        <br><br><br>
+        
+        
+        
+        
+    
+        </div>
+    </div>
+<br><br>
+
+    
+
+</body>
+
+
+</html>
